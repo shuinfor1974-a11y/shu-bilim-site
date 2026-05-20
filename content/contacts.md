@@ -1,5 +1,5 @@
 ---
-address: Жамбыл облысы, Шу ауданы
-phone: +7 (000) 000-00-00
-email: info@shu-bilim.kz
+address: Жамбыл облысы, Шу ауданы, Төле би ауылы, Егемберді көшесі, 2а
+phone: 8 (72638) 3-00-09
+email: roo-shu@yandex.kz
 ---
