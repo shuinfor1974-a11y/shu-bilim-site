@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Шу ауданының білім бөлімі</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+    body{background:#f4f7fb;color:#1f2937;line-height:1.6}
+    header{background:linear-gradient(135deg,#0066b3,#00a3d9);color:white}
+    .topbar{max-width:1200px;margin:auto;padding:10px 20px;display:flex;justify-content:space-between;gap:15px;font-size:14px;flex-wrap:wrap}
+    .hero{max-width:1200px;margin:auto;padding:35px 20px;display:grid;grid-template-columns:1fr 280px;gap:25px;align-items:center}
+    .logo{display:flex;gap:16px;align-items:center}
+    .emblem{width:70px;height:70px;border-radius:50%;background:white;color:#0066b3;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:24px}
+    h1{font-size:30px;line-height:1.25;margin-bottom:8px}
+    .subtitle{font-size:17px;opacity:.95}
+    .notice{background:rgba(255,255,255,.15);padding:18px;border-radius:16px;border:1px solid rgba(255,255,255,.25)}
+    nav{background:#064e8a}
+    nav .menu{max-width:1200px;margin:auto;display:flex;gap:4px;overflow:auto;padding:0 20px}
+    nav a{color:white;text-decoration:none;padding:14px 16px;display:block;white-space:nowrap;font-weight:600}
+    nav a:hover{background:rgba(255,255,255,.14)}
+    .container{max-width:1200px;margin:24px auto;padding:0 20px;display:grid;grid-template-columns:2fr 1fr;gap:24px}
+    .card{background:white;border-radius:18px;padding:22px;box-shadow:0 8px 25px rgba(0,0,0,.07);margin-bottom:20px}
+    .section-title{font-size:22px;color:#064e8a;margin-bottom:14px;border-left:5px solid #00a3d9;padding-left:12px}
+    .news-item{padding:16px 0;border-bottom:1px solid #e5e7eb}
+    .news-item:last-child{border-bottom:0}
+    .date{color:#64748b;font-size:14px;margin-bottom:4px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .quick{background:#eef7ff;border:1px solid #cfeeff;border-radius:14px;padding:16px;text-align:center;font-weight:700;color:#064e8a}
+    .leader{display:flex;gap:14px;align-items:center}
+    .photo{width:82px;height:82px;border-radius:14px;background:#dbeafe;display:flex;align-items:center;justify-content:center;color:#064e8a;font-weight:700}
+    ul{padding-left:20px}
+    footer{background:#063b66;color:white;margin-top:30px}
+    footer .foot{max-width:1200px;margin:auto;padding:28px 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .btn{display:inline-block;margin-top:12px;background:#00a3d9;color:white;text-decoration:none;padding:10px 16px;border-radius:10px;font-weight:700}
+    @media(max-width:850px){.hero,.container,footer .foot{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}h1{font-size:24px}}
+    @media(max-width:520px){.grid{grid-template-columns:1fr}.topbar{font-size:13px}.hero{padding:25px 16px}.container{padding:0 16px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div>Қазақстан Республикасы, Жамбыл облысы</div>
+      <div>Қабылдау бөлімі: +7 (000) 000-00-00</div>
+    </div>
+    <div class="hero">
+      <div class="logo">
+        <div class="emblem">ШУ</div>
+        <div>
+          <h1>Жамбыл облысы әкімдігінің білім басқармасы<br>Шу ауданының білім бөлімі</h1>
+          <div class="subtitle">Білім сапасы. Ашықтық. Қауіпсіз орта. Жаңашыл мектеп.</div>
+        </div>
+      </div>
+      <div class="notice">
+        <strong>Құрметті ата-аналар мен ұстаздар!</strong><br>
+        Бұл сайт арқылы жаңалықтар, хабарландырулар, мектептер тізімі және байланыс ақпаратын көре аласыз.
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="menu">
+      <a href="#home">Басты бет</a>
+      <a href="#about">Бөлім туралы</a>
+      <a href="#leader">Басшылық</a>
+      <a href="#schools">Білім мекемелері</a>
+      <a href="#news">Жаңалықтар</a>
+      <a href="/admin/">Админ панель</a>
+    </div>
+  </nav>
+
+  <main class="container" id="home">
+    <section>
+      <div class="card" id="news">
+        <h2 class="section-title">Соңғы жаңалықтар</h2>
+        <div class="news-item">
+          <div class="date">19 мамыр 2026</div>
+          <h3>Шу ауданы білім беру ұйымдарында қауіпсіздік шаралары күшейтілді</h3>
+          <p>Мектептерде оқушылардың қауіпсіздігін қамтамасыз ету бойынша түсіндіру жұмыстары жүргізілуде.</p>
+        </div>
+        <div class="news-item">
+          <div class="date">18 мамыр 2026</div>
+          <h3>Ата-аналар назарына</h3>
+          <p>Жазғы демалыс кезеңінде балалардың қауіпсіздігіне ерекше назар аудару сұралады.</p>
+        </div>
+        <p style="margin-top:12px;color:#64748b">Жаңалықтарды /admin арқылы қосуға болады. Толық автоматты шығару үшін сайтты GitHub арқылы қосу керек.</p>
+      </div>
+
+      <div class="card" id="about">
+        <h2 class="section-title">Бөлім туралы</h2>
+        <p>Шу ауданының білім бөлімі аудан аумағындағы білім беру ұйымдарының қызметін үйлестіреді, білім сапасын арттыру, оқушылардың құқықтарын қорғау және педагогтерге әдістемелік қолдау көрсету бағытында жұмыс атқарады.</p>
+      </div>
+
+      <div class="card" id="schools">
+        <h2 class="section-title">Білім мекемелері</h2>
+        <div class="grid">
+          <div class="quick">Мектептер</div>
+          <div class="quick">Балабақшалар</div>
+          <div class="quick">Қосымша білім</div>
+          <div class="quick">Бос орындар</div>
+          <div class="quick">Әдістемелік кабинет</div>
+          <div class="quick">Құжаттар</div>
+        </div>
+      </div>
+    </section>
+
+    <aside>
+      <div class="card" id="leader">
+        <h2 class="section-title">Басшылық</h2>
+        <div class="leader">
+          <div class="photo">Фото</div>
+          <div>
+            <strong>Бөлім басшысы</strong><br>
+            Аты-жөні осында жазылады<br>
+            <a class="btn" href="#contacts">Қабылдауға жазылу</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="contacts">
+        <h2 class="section-title">Байланыс</h2>
+        <p><strong>Мекенжай:</strong> Жамбыл облысы, Шу ауданы</p>
+        <p><strong>Телефон:</strong> +7 (000) 000-00-00</p>
+        <p><strong>Email:</strong> info@shu-bilim.kz</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <div><h3>Шу ауданының білім бөлімі</h3><p>Ресми ақпараттық сайт үлгісі.</p></div>
+      <div><h3>Бөлімдер</h3><p>Жаңалықтар<br>Басшылық<br>Білім мекемелері</p></div>
+      <div><h3>Кері байланыс</h3><p>Сұрақтарыңыз болса, байланыс бөлімі арқылы хабарласыңыз.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
